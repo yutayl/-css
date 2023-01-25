@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head><title>WEB</title>   
+<style>
+   body{margin: 0;}
+ a{
+    color:black;
+    text-decoration: none;
+ }
+ .saw {
+    color:black;
+ }
+ #active{
+    color: black;
+ }
+ h1{
+    font-size: 40px;text-align: center;
+    border-bottom: 2px solid gray;
+    margin:0;
+    padding:20px;
+ }
+ ol{
+   border-right: 2px solid gray;
+   width: 100px;
+   margin:0;
+   padding: 20px;
+   font-size: 20px;
+ }
+ #grid{
+   display: grid;
+   grid-template-columns: 150px 1fr;
+ }
+ ol{
+   padding-left: 35px;
+ }
+ #article{
+   padding-left: 30px;
+ }
+@media(max-width 600px){
+   #grid{
+   display: block;}
+}
+
+</style>
+
+</head>
+<body><h1>WEB</h1>  
+   <div id="grid">
+<ol>
+    <li><a href="https://ko.wikipedia.org/wiki/HTML" target="_blank" class="saw">HTML</a></li>
+    <li><a href="https://ko.wikipedia.org/wiki/CSS" target="_blank" class="saw" id="active">CSS</a></li>
+    <li><a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)" target="_blank">Java</a></li>
+</ol>
+<div id="article">
+    <h2>CSS란?<p> <strong>종속형 시트 또는 캐스케이딩 스타일 시트</strong>는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어로, HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이고, 레이아웃과 스타일을 정의할 때의 자유도가 높다. 기본 파일명은 style.css이다</h2>
+    </div>
+</p>
+</div>
+</body>
+</html>
